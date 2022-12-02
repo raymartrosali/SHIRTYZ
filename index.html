@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title> SHIRTYZ </title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="brand-title"><img src="images/TEMPLOGO1.png"></div>
+        <a class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="add to cart page.html"><i class="fas fa-cart-plus" style="color:rgb(207, 189, 154); font-size: large;"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--HIGHLIGHT-->
+    <div class="hero" id="hero">
+        <div class="head-1">
+            <h1>SHIRTYZ</h1>
+            <p>never ceased progressing and has continually changed by strengthening their relationships 
+                <br>with each person they encounter and the community at large.</p>
+        </div>
+    </div>
+    <!--FEATURES-->
+    <div class="features">
+        <div class="ftcontainer">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/ft2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/ft1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/ft3.jpg">
+                </div>
+                <div class="col-3">
+                    <h3>TOP FEATURES</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PRODUCTS-->
+    <div class="products" id="products">
+        <h2>PRODUCTS</h2>
+        <div class="prdcontainer">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/col10.jpg">
+                    <h4>Grey Sweatshirt</h4>
+                    <p>250.00 php</p>
+                    <button onclick="person.addItemFunction('Grey Sweatshirt', 250,'col10.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col9.jpg">
+                    <h4>Stripe Pants</h4>
+                    <p>300.00 php</p>
+                    <button onclick="person.addItemFunction('Stripe Pants', 300, 'col9.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col8.jpg"> 
+                    <h4>Pineapple Polo</h4>
+                    <p>500.00 php</p>
+                    <button onclick="person.addItemFunction('Pineapple Polo', 500, 'col8.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col7.jpg">
+                    <h4>Plain White Shirt</h4>
+                    <p>200.00 php</p>
+                    <button onclick="person.addItemFunction('Plain White Shirt', 200, 'col7.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col6.jpg"> 
+                    <h4>Yellow Set</h4>
+                    <p>1000.00 php</p>
+                    <button onclick="person.addItemFunction('Yellow Set', 1000, 'col6.jpg')">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="prdcontainer">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/col5.jpg">
+                    <h4>Blue Set</h4>
+                    <p>1000.00 php</p>
+                    <button onclick="person.addItemFunction('Blue Set', 1000, 'col5.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col4.jpg">
+                    <h4>Checkered Polo</h4>
+                    <p>400.00 php</p>
+                    <button onclick="person.addItemFunction('Checkered Polo', 400, 'col4.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col1.jpg"> 
+                    <h4>Grey Pants</h4>
+                    <p>200.00 php</p>
+                    <button onclick="person.addItemFunction('Grey Pants', 200, 'col1.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col2.jpg">
+                    <h4>Black Set</h4>
+                    <p>1000.00 php</p>
+                    <button onclick="person.addItemFunction('Black Set', 1000 , 'col2.jpg')">add to cart</button>
+                </div>
+                <div class="col-4">
+                    <img src="images/col3.jpg"> 
+                    <h4>White Sweatshirt</h4>
+                    <p>250.00 php</p>
+                    <button onclick="person.addItemFunction('White Sweatshirt', 2500, 'col3.jpg')">add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SALES-->
+    <div class="sales">
+        <div class="slscontainer">
+            <div class="row">
+                <div class="cols">
+                    <img src="images/pro3.jpg">
+                </div>
+                <div class="cols">
+                    <img src="images/pro4.jpg">
+                </div>
+            </div>
+            <div class="saletag">
+                 <h1>SALE <i class="fas fa-tag"></i></h1>
+                 <p>valid until 00/00/00</p>
+            </div>
+        </div>
+    </div>
+    <!--ABOUT US-->
+    <div class="aboutus" id="aboutus">
+        <h2>ABOUT US</h2>
+        <div class="abtcontainer">
+            <h1>SHIRTYZ</h1>
+                <p>Shirtyz is a brand with unique style of fashion that anyone can wear! 
+                    Shirtyz was brought into the world through a progression of spring up stores in 2014. 
+                    We needed to offer enhanced shopping background, inventive motivation and to associate with those that share a 
+                    similar vision with us. Today our objective continues as before.</p>
+            </div>
+        </div>
+    </div>
+    <!--CONTACT US-->
+    <!--CONTACT-->
+    <main>
+        <div class="contact" id="contact">
+            <div class="cntctcontainer">
+                <div class="cntcttxt">
+                    <div class="google-map">
+                        <h1>CONTACT US!</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <br>
+                            Perferendis ab dolores facere cumque! 
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d964.8736429809275!2d120.9911097!3d14.6846009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6a90c15615f%3A0xbf1cd363d72190e5!2s3S%20Center%20Gen%20T%20De%20Leon!5e0!3m2!1sen!2sph!4v1621766736845!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <br><br>
+                        <div class="email">
+                            <i class="fas fa-comment" style="font-size: x-large; color: rgb(136, 124, 99);"></i>
+                            <b>:</b>
+                            email@mail.com
+                        </div>
+                        <div class="call">
+                            <i class="fas fa-phone-alt" style="font-size: x-large; color: rgb(136, 124, 99);"></i>
+                            <b>:</b>
+                            123-456-789
+                        </div>
+                    </div>
+                </div>
+                <div class="cntctbx">
+                    <div class="cntct-inputs">
+                        <input type="text" name="" value="" placeholder="Name" class="a">
+                        <input type="text" name="" value="" placeholder="Email" class="b">
+                        <input type="text" name="" value="" placeholder="Contact Number" class="c">
+                        <textarea placeholder="Write your message here"></textarea>
+                        <button class="cntct-btn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-icon">
+            <i class="fas fa-comment"></i>
+        </div>
+    </main>
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="footcontainer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tincidunt nisl in lacus fringilla ullamcorper.</p>
+                Copyright &copy;2021 All rights reserved
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
